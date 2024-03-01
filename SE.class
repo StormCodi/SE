@@ -33,26 +33,26 @@ public class SE {
 			System.out.println(toPrint);
 	}
 
-	public static void print(int i) {// subsidiary command
+	public static void print(int i) {// overloaded method
 		print("" + i);
 
 	}
-	
-	public static void print (double d) {// subsidiary command
+
+	public static void print(double d) {// overloaded method
 		print("" + d);
 	}
-	
+
 	public static void printN(String toPrint) {// print easy (N = not start a new line)
 		if (toPrint != null)
 			System.out.print(toPrint);
 	}
 
-	public static void printN(int i) {// subsidiary command
+	public static void printN(int i) {// overloaded method
 		print("" + i);
 
 	}
-	
-	public static void printN(double d) {// subsidiary command
+
+	public static void printN(double d) {// overloaded method
 		print("" + d);
 	}
 
