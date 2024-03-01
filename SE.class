@@ -48,12 +48,12 @@ public class SE {
 	}
 
 	public static void printN(int i) {// overloaded method
-		print("" + i);
+		printN("" + i);
 
 	}
 
 	public static void printN(double d) {// overloaded method
-		print("" + d);
+		printN("" + d);
 	}
 
 }
